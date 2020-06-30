@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color:rgb(250, 179, 179);
+
+}
+
+.gallery-highlight {
+	width: 80%;
+	height: 50%;
+}
+
+.cake-gallery {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.cake-preview { 
+	display: flex;
+	width: 40%;
+}
+.cake-preview img {
+	height: 50px;
+	flex-grow: 1;
+	opacity: 0.6;
+	cursor: pointer;
+	transition: opacity 0.3s ease;
+}
+
+img.cake-active{
+	opacity: 1;
+	border: 2px solid;
+}
